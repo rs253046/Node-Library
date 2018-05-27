@@ -1,0 +1,38 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "prestart": "jscs --fix src/routes/bookRoutes.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.7",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.5",
+    "http": "0.0.0",
+    "jade": "^1.11.0",
+    "mongodb": "^2.2.30",
+    "mssql": "^4.0.4",
+    "mysql": "^2.14.1",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "xml2js": "^0.4.17"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-inject": "^1.5.0",
+    "gulp-jscs": "2.0.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-nodemon": "^2.2.1",
+    "jshint-stylish": "^2.2.1",
+    "wiredep": "*"
+  }
+}
